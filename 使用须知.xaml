@@ -114,26 +114,103 @@ xmlns:local="clr-namespace:PCL;assembly=Plain Craft Launcher 2">
 <Setter Property="Background" Value="#33DDBB44"/>
 </Style>
 </StackPanel.Resources>
-<local:MyCard Title="目录" CanSwap="False" IsSwaped="False" Style="{StaticResource Card}" >
+<local:MyCard Margin="0,3,0,10">
+<StackPanel>
+<Border CornerRadius="5"  Margin="0">
+<Grid Margin="12,8">
+  <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="1*"/>
+    <ColumnDefinition Width="2*"/>
+    <ColumnDefinition Width="1*"/>
+  </Grid.ColumnDefinitions>
+  <StackPanel Grid.Column="0" HorizontalAlignment="Left" Orientation="Horizontal" >
+  <Image Source="https://vuepress.vuejs.org/images/hero.png" VerticalAlignment="Center" Height="20" Width="20" Margin="6,0"/>
+  <TextBlock Text="VFP" FontWeight="Bold" VerticalAlignment="Center"/>
+  </StackPanel>
+  <StackPanel Grid.Column="1" HorizontalAlignment="Center" Orientation="Horizontal" >
+    <local:MyIconTextButton Grid.Column="2" Text="快速上手" EventType="打开帮助"
+    EventData="尚未配置"
+    LogoScale="1" Logo="M959.37 92.5c-0.04-0.21-0.06-0.41-0.11-0.62-0.03-0.14-0.07-0.28-0.11-0.43a32.53 32.53 0 0 0-3.42-9.1c-9.35-16.7-31.46-23.19-49.39-14.48L83.69 467.43c-12.11 5.88-19.71 17.56-19.69 30.28 0.01 10.94 5.57 20.64 14.17 26.87 5.71 4.32 12.84 7.1 20.74 7.57l404.48 23.83c3.41 0.2 6.33 2.53 7.29 5.81l108.53 372.62c1.75 6.02 5.23 11.24 9.78 15.39 1.01 0.95 2.07 1.84 3.19 2.68 0.09 0.07 0.18 0.13 0.28 0.19 6.22 4.57 14.06 7.32 22.59 7.33 16.12 0 30.34-9.82 35.03-24.19l268.44-827.45c1.69-5.34 1.88-10.74 0.85-15.86zM648.9 807.46l-89.39-306.91a8.088 8.088 0 0 0-7.29-5.81l-306.46-18.05c-8.31-0.49-10.55-11.71-3.06-15.35l616.81-299.58c6.41-3.11 13.43 2.99 11.23 9.77L664.36 807.69c-2.46 7.58-13.23 7.42-15.46-0.23z"/>
+  </StackPanel>
+  <local:MyIconTextButton Grid.Column="2" HorizontalAlignment="Right" Text="Join Us" EventType="打开网页"
+    EventData="https://github.com/Joker2184/VuePress-for-PCL2"
+    LogoScale="1" Logo="M512 42.666667A464.64 464.64 0 0 0 42.666667 502.186667 460.373333 460.373333 0 0 0 363.52 938.666667c23.466667 4.266667 32-9.813333 32-22.186667v-78.08c-130.56 27.733333-158.293333-61.44-158.293333-61.44a122.026667 122.026667 0 0 0-52.053334-67.413333c-42.666667-28.16 3.413333-27.733333 3.413334-27.733334a98.56 98.56 0 0 1 71.68 47.36 101.12 101.12 0 0 0 136.533333 37.973334 99.413333 99.413333 0 0 1 29.866667-61.44c-104.106667-11.52-213.333333-50.773333-213.333334-226.986667a177.066667 177.066667 0 0 1 47.36-124.16 161.28 161.28 0 0 1 4.693334-121.173333s39.68-12.373333 128 46.933333a455.68 455.68 0 0 1 234.666666 0c89.6-59.306667 128-46.933333 128-46.933333a161.28 161.28 0 0 1 4.693334 121.173333A177.066667 177.066667 0 0 1 810.666667 477.866667c0 176.64-110.08 215.466667-213.333334 226.986666a106.666667 106.666667 0 0 1 32 85.333334v125.866666c0 14.933333 8.533333 26.88 32 22.186667A460.8 460.8 0 0 0 981.333333 502.186667 464.64 464.64 0 0 0 512 42.666667"/>
+</Grid>
+</Border>
+</StackPanel>
+</local:MyCard><local:MyCard Title="使用须知" CanSwap="True" IsSwaped="False" Style="{StaticResource Card}" >
 <StackPanel Style="{StaticResource ContentStack}">
-<StackPanel Margin="8,2,8,15"><local:MyListItem Margin="10,1,10,1"
-	Logo="pack://application:,,,/images/Blocks/Grass.png"
-    Title="使用须知" EventType="打开帮助" EventData="https://vuepress-for-pcl2-web.pages.dev/使用须知.json" Type="Clickable"/><local:MyListItem Margin="30,1,10,1" ToolTip="点击查看"
-	Logo="pack://application:,,,/images/Blocks/GrassPath.png"
-    Title="准备工作" Info="2024-10-17"
-	EventType="打开帮助" EventData="https://vuepress-for-pcl2-web.pages.dev/准备工作.json" Type="Clickable" /><local:MyListItem Margin="30,1,10,1" ToolTip="点击查看"
-	Logo="pack://application:,,,/images/Blocks/GrassPath.png"
-    Title="快速开始" Info="2024-10-17"
-	EventType="打开帮助" EventData="https://vuepress-for-pcl2-web.pages.dev/快速开始.json" Type="Clickable" /></StackPanel>
+<WrapPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="8,6,8,2">
+
+<Path Grid.Column="0" Margin="4,0" Width="14" Height="14" Fill="{DynamicResource ColorBrush4}"
+                    Stretch="Uniform"
+                    Data="M649.6 633.6c86.4-48 147.2-144 147.2-249.6 0-160-128-288-288-288s-288 128-288 288c0 108.8 57.6 201.6 147.2 249.6-121.6 48-214.4 153.6-240 288-3.2 9.6 0 19.2 6.4 25.6 3.2 9.6 12.8 12.8 22.4 12.8h704c9.6 0 19.2-3.2 25.6-12.8 6.4-6.4 9.6-16 6.4-25.6-25.6-134.4-121.6-240-243.2-288z"/>
+<TextBlock FontSize="12" Foreground="{DynamicResource ColorBrush3}" Margin="0,2,3,0">Joker2184</TextBlock>
+
+
+
+<Path Grid.Column="0" Margin="4,0" Width="14" Height="14" Fill="{DynamicResource ColorBrush4}"
+                    Stretch="Uniform"
+                    Data="M716.4 110.137c0-18.753-14.72-33.473-33.472-33.473-18.753 0-33.473 14.72-33.473 33.473v33.473h66.993v-33.473zm-334.87 0c0-18.753-14.72-33.473-33.473-33.473s-33.52 14.72-33.52 33.473v33.473h66.993v-33.473zm468.81 33.52H716.4v100.465c0 18.753-14.72 33.473-33.472 33.473a33.145 33.145 0 01-33.473-33.473V143.657H381.53v100.465c0 18.753-14.72 33.473-33.473 33.473a33.145 33.145 0 01-33.473-33.473V143.657H180.6A134.314 134.314 0 0046.66 277.595v535.756A134.314 134.314 0 00180.6 947.289h669.74a134.36 134.36 0 00133.94-133.938V277.595a134.314 134.314 0 00-133.94-133.938zm33.473 267.877H147.126a33.145 33.145 0 01-33.473-33.473c0-18.752 14.72-33.473 33.473-33.473h736.687c18.752 0 33.472 14.72 33.472 33.473a33.145 33.145 0 01-33.472 33.473z"/>
+<TextBlock FontSize="12" Foreground="{DynamicResource ColorBrush3}" Margin="0,2,3,0">2024-10-17</TextBlock>
+
+
+
+<Path Grid.Column="0" Margin="7,0,4,0" Width="14" Height="14" Fill="{DynamicResource ColorBrush4}"
+                    Stretch="Uniform"
+                    Data="M148.41 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H148.41c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.311-40.31zM147.556 553.478H429.73c22.263 0 40.311 18.048 40.311 40.31v282.176c0 22.263-18.048 40.312-40.31 40.312H147.555c-22.263 0-40.311-18.049-40.311-40.312V593.79c0-22.263 18.048-40.311 40.31-40.311zM593.927 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H593.927c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.31-40.31zM730.22 920.502H623.926c-40.925 0-74.22-33.388-74.22-74.425V623.992c0-41.038 33.387-74.424 74.425-74.424h222.085c41.038 0 74.424 33.226 74.424 74.067v114.233c0 10.244-8.304 18.548-18.547 18.548s-18.548-8.304-18.548-18.548V623.635c0-20.388-16.746-36.974-37.33-36.974H624.13c-20.585 0-37.331 16.747-37.331 37.33v222.086c0 20.585 16.654 37.331 37.126 37.331H730.22c10.243 0 18.547 8.304 18.547 18.547 0 10.244-8.304 18.547-18.547 18.547z"/>
+
+<Border CornerRadius="4" Background="{DynamicResource ColorBrush2}" Margin="2">
+<TextBlock  Margin="4,1" FontSize="10" Foreground="{DynamicResource ColorBrush5}">使用指南</TextBlock>
+</Border>
+
+
+
+<Path Grid.Column="0" Margin="7,0,4,0" Width="14" Height="14" Fill="{DynamicResource ColorBrush4}"
+                    Stretch="Uniform"
+                    Data="M939.902 458.563L910.17 144.567c-1.507-16.272-14.465-29.13-30.737-30.737L565.438 84.098h-.402c-3.215 0-5.726 1.005-7.634 2.913l-470.39 470.39a10.004 10.004 0 000 14.164l365.423 365.424c1.909 1.908 4.42 2.913 7.132 2.913s5.223-1.005 7.132-2.913l470.39-470.39c2.01-2.11 3.014-5.023 2.813-8.036zm-240.067-72.121c-35.458 0-64.286-28.828-64.286-64.286s28.828-64.285 64.286-64.285 64.286 28.828 64.286 64.285-28.829 64.286-64.286 64.286z"/>
+
+<Border CornerRadius="4" Background="{DynamicResource ColorBrush2}" Margin="2">
+<TextBlock  Margin="4,1" FontSize="10" Foreground="{DynamicResource ColorBrush5}">快速开始</TextBlock>
+</Border>
+
+</WrapPanel>
+<Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush5}" StrokeThickness="1.2" Stretch="Fill" Margin="8,2"/><FlowDocumentScrollViewer >
+<FlowDocument>
+<Section Style="{StaticResource noteQuote}">
+  <Paragraph FontWeight="Bold">
+    注释
+    <Paragraph.Foreground>
+      <Binding Path="BorderBrush" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=Section}" />
+    </Paragraph.Foreground>
+  </Paragraph>
+  
+    <Paragraph>
+测试产品 仅供预览 </Paragraph>
+
+</Section><Paragraph Style="{StaticResource H2}">问题很多</Paragraph><Paragraph Style="{StaticResource H3}">在修了 别催.jpg</Paragraph><Paragraph Style="{StaticResource H2}">先提Issue</Paragraph>
+</FlowDocument>
+</FlowDocumentScrollViewer>
 </StackPanel>
 </local:MyCard>
 <Grid>
     <Grid.ColumnDefinitions>
         
-        
+        <ColumnDefinition/>
     </Grid.ColumnDefinitions>
     
     
+    <local:MyCard Margin="5" Grid.Column="1" Height="60">
+        <local:MyButton EventType="打开帮助" EventData="https://updatehomepage.pages.dev/准备工作.json">
+        <StackPanel Margin="20,10">
+            <TextBlock Text="下一页" FontWeight="Bold" FontSize="16"
+                Foreground="{DynamicResource ColorBrush3}" 
+                HorizontalAlignment="Right"/>
+            <TextBlock FontSize="12" Foreground="Gray" 
+                HorizontalAlignment="Right">准备工作</TextBlock>
+        </StackPanel>
+        </local:MyButton>
+    </local:MyCard>
 </Grid><local:MyCard Margin="0,0,0,14">
 <Border CornerRadius="5" Background="White" Margin="0">
 <Border BorderBrush="{DynamicResource ColorBrush4}" Margin="-0.6" CornerRadius="5" BorderThickness="4,0,0,0">
