@@ -118,7 +118,7 @@ xmlns:local="clr-namespace:PCL;assembly=Plain Craft Launcher 2">
 <StackPanel Style="{StaticResource ContentStack}">
 <StackPanel Margin="8,2,8,15"><local:MyListItem Margin="10,1,10,1"
 	Logo="pack://application:,,,/images/Blocks/Grass.png"
-    Title="使用须知" EventType="打开帮助" EventData="https://vuepress-for-pcl2-web.pages.dev/使用须知.json" Type="Clickable"/><local:MyListItem Margin="30,1,10,1" ToolTip="点击查看"
+    Title="使用须知" Info="2024-10-17" EventType="打开帮助" EventData="https://vuepress-for-pcl2-web.pages.dev/使用须知.json" Type="Clickable"/><local:MyListItem Margin="30,1,10,1" ToolTip="点击查看"
 	Logo="pack://application:,,,/images/Blocks/GrassPath.png"
     Title="准备工作" Info="2024-10-17"
 	EventType="打开帮助" EventData="https://vuepress-for-pcl2-web.pages.dev/准备工作.json" Type="Clickable" /><local:MyListItem Margin="30,1,10,1" ToolTip="点击查看"

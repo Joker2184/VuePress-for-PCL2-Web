@@ -201,7 +201,7 @@ xmlns:local="clr-namespace:PCL;assembly=Plain Craft Launcher 2">
     
     
     <local:MyCard Margin="5" Grid.Column="1" Height="60">
-        <local:MyButton EventType="打开帮助" EventData="https://updatehomepage.pages.dev/准备工作.json">
+        <local:MyButton EventType="打开帮助" EventData="https://vuepress-for-pcl2-web.pages.dev/准备工作.json">
         <StackPanel Margin="20,10">
             <TextBlock Text="下一页" FontWeight="Bold" FontSize="16"
                 Foreground="{DynamicResource ColorBrush3}" 
