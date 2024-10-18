@@ -128,23 +128,17 @@ xmlns:local="clr-namespace:PCL;assembly=Plain Craft Launcher 2">
   <TextBlock Text="VFP" FontWeight="Bold" VerticalAlignment="Center"/>
   </StackPanel>
   <StackPanel Grid.Column="1" HorizontalAlignment="Center" Orientation="Horizontal" >
-    <local:MyIconTextButton Grid.Column="2" Text="快速上手" EventType="打开帮助"
+    <local:MyIconTextButton Grid.Column="2" Text="回到主页" EventType="打开帮助"
     EventData="尚未配置"
     LogoScale="1" Logo="M959.37 92.5c-0.04-0.21-0.06-0.41-0.11-0.62-0.03-0.14-0.07-0.28-0.11-0.43a32.53 32.53 0 0 0-3.42-9.1c-9.35-16.7-31.46-23.19-49.39-14.48L83.69 467.43c-12.11 5.88-19.71 17.56-19.69 30.28 0.01 10.94 5.57 20.64 14.17 26.87 5.71 4.32 12.84 7.1 20.74 7.57l404.48 23.83c3.41 0.2 6.33 2.53 7.29 5.81l108.53 372.62c1.75 6.02 5.23 11.24 9.78 15.39 1.01 0.95 2.07 1.84 3.19 2.68 0.09 0.07 0.18 0.13 0.28 0.19 6.22 4.57 14.06 7.32 22.59 7.33 16.12 0 30.34-9.82 35.03-24.19l268.44-827.45c1.69-5.34 1.88-10.74 0.85-15.86zM648.9 807.46l-89.39-306.91a8.088 8.088 0 0 0-7.29-5.81l-306.46-18.05c-8.31-0.49-10.55-11.71-3.06-15.35l616.81-299.58c6.41-3.11 13.43 2.99 11.23 9.77L664.36 807.69c-2.46 7.58-13.23 7.42-15.46-0.23z"/>
-    <local:MyIconTextButton Grid.Column="2" Text="指南" EventType="打开帮助"
-    EventData="尚未配置"
-    LogoScale="1" Logo="M272 384c9.6-31.9 29.5-59.1 49.2-86.2c0 0 0 0 0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4c0 0 0 0 0 0c19.8 27.1 39.7 54.4 49.2 86.2l160 0zM192 512c44.2 0 80-35.8 80-80l0-16-160 0 0 16c0 44.2 35.8 80 80 80zM112 176c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z"/>
-    <local:MyIconTextButton Grid.Column="2" Text="配置" EventType="打开帮助"
-    EventData="尚未配置"
-    LogoScale="1" Logo="M544.033302 516.000776V96.000564c0-17.672051-14.478655-31.998984-32.150706-31.998984s-32.150706 14.326933-32.150707 31.998984v420.061624c-54.909072 14.251072-95.809105 64.333925-95.809105 123.935554 0 59.691941 40.82056 109.836206 96.090876 124.000579a32.298816 32.298816 0 0 0-0.281771 4.006195v159.99492c0 17.672051 14.478655 31.998984 32.150707 31.998984s32.150706-14.326933 32.150706-31.998984V768.004516a32.280754 32.280754 0 0 0-0.317894-3.941171c55.389526-14.088512 96.397933-64.301413 96.397932-124.058378 0.010837-59.691941-40.809723-109.832593-96.080038-124.004191z m13.221527 169.249989a64.00158 64.00158 0 1 1 18.744945-45.256635 63.578925 63.578925 0 0 1-18.744945 45.260247zM223.678606 196.003711a32.287979 32.287979 0 0 0 0.292607-4.002582V96.000564a31.970084 31.970084 0 1 0-63.940169 0V192.001129a32.371065 32.371065 0 0 0 0.180622 4.060381c-55.270316 14.160761-96.173962 64.301413-96.173961 124.000579s40.910871 109.818143 96.181186 123.996966a32.360228 32.360228 0 0 0-0.184234 3.937558V927.999436a31.970084 31.970084 0 1 0 63.940169 0V448.000226a32.287979 32.287979 0 0 0-0.278158-3.883372c55.385914-14.088512 96.350971-64.301413 96.350971-124.054765S279.071744 210.084998 223.678606 196.003711z m13.575545 169.315013A64.00158 64.00158 0 1 1 255.999097 320.062089a63.578925 63.578925 0 0 1-18.744946 45.256635zM959.99842 320.062089c0-59.775027-41.048144-109.977091-96.45212-124.058378a32.360228 32.360228 0 0 0 0.173397-4.002582V96.000564a31.970084 31.970084 0 1 0-63.940169 0V192.001129a32.291592 32.291592 0 0 0 0.299833 4.060381c-55.270316 14.160761-96.116162 64.301413-96.116163 124.000579s40.82056 109.836206 96.090876 124.000578a32.298816 32.298816 0 0 0-0.281771 3.99897V927.999436a31.970084 31.970084 0 1 0 63.940169 0V448.061637a32.381903 32.381903 0 0 0-0.166172-3.941171c55.407588-14.084899 96.452119-64.286963 96.45212-124.058377z m-82.746526 45.253022a63.997968 63.997968 0 1 1 18.748558-45.253022 63.578925 63.578925 0 0 1-18.748558 45.253022z"/>
   </StackPanel>
   <local:MyIconTextButton Grid.Column="2" HorizontalAlignment="Right" Text="Join Us" EventType="打开网页"
-    EventData="https://github.com/BetterMinecraftHelpDocs/Vue-For-PCL2-VFP-"
+    EventData="https://github.com/Joker2184/VuePress-for-PCL2"
     LogoScale="1" Logo="M512 42.666667A464.64 464.64 0 0 0 42.666667 502.186667 460.373333 460.373333 0 0 0 363.52 938.666667c23.466667 4.266667 32-9.813333 32-22.186667v-78.08c-130.56 27.733333-158.293333-61.44-158.293333-61.44a122.026667 122.026667 0 0 0-52.053334-67.413333c-42.666667-28.16 3.413333-27.733333 3.413334-27.733334a98.56 98.56 0 0 1 71.68 47.36 101.12 101.12 0 0 0 136.533333 37.973334 99.413333 99.413333 0 0 1 29.866667-61.44c-104.106667-11.52-213.333333-50.773333-213.333334-226.986667a177.066667 177.066667 0 0 1 47.36-124.16 161.28 161.28 0 0 1 4.693334-121.173333s39.68-12.373333 128 46.933333a455.68 455.68 0 0 1 234.666666 0c89.6-59.306667 128-46.933333 128-46.933333a161.28 161.28 0 0 1 4.693334 121.173333A177.066667 177.066667 0 0 1 810.666667 477.866667c0 176.64-110.08 215.466667-213.333334 226.986666a106.666667 106.666667 0 0 1 32 85.333334v125.866666c0 14.933333 8.533333 26.88 32 22.186667A460.8 460.8 0 0 0 981.333333 502.186667 464.64 464.64 0 0 0 512 42.666667"/>
 </Grid>
 </Border>
 </StackPanel>
-</local:MyCard><local:MyCard Title="准备工作" CanSwap="True" IsSwaped="False" Style="{StaticResource Card}" >
+</local:MyCard><local:MyCard Title="快速开始" CanSwap="True" IsSwaped="False" Style="{StaticResource Card}" >
 <StackPanel Style="{StaticResource ContentStack}">
 <WrapPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="8,6,8,2">
 
@@ -170,6 +164,10 @@ xmlns:local="clr-namespace:PCL;assembly=Plain Craft Launcher 2">
 <TextBlock  Margin="4,1" FontSize="10" Foreground="{DynamicResource ColorBrush5}">新手上路</TextBlock>
 </Border>
 
+<Border CornerRadius="4" Background="{DynamicResource ColorBrush2}" Margin="2">
+<TextBlock  Margin="4,1" FontSize="10" Foreground="{DynamicResource ColorBrush5}">使用指南</TextBlock>
+</Border>
+
 
 
 <Path Grid.Column="0" Margin="7,0,4,0" Width="14" Height="14" Fill="{DynamicResource ColorBrush4}"
@@ -183,19 +181,13 @@ xmlns:local="clr-namespace:PCL;assembly=Plain Craft Launcher 2">
 </WrapPanel>
 <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush5}" StrokeThickness="1.2" Stretch="Fill" Margin="8,2"/><FlowDocumentScrollViewer >
 <FlowDocument>
-<Section Style="{StaticResource warningQuote}">
-  <Paragraph FontWeight="Bold">
-    警告
-    <Paragraph.Foreground>
-      <Binding Path="BorderBrush" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=Section}" />
-    </Paragraph.Foreground>
-  </Paragraph>
-  
-    <Paragraph><LineBreak/>
-如果你创建了用于存放md文件的文件夹
-请配置一个README文件用于获取文件夹内消息.jpg</Paragraph>
-
-</Section>
+<Paragraph Style="{StaticResource H2}">一、配置构建器</Paragraph>    <Paragraph>HomepageBuilder是由信标编写的xaml构建器</Paragraph>    <Paragraph>具有高扩展性</Paragraph><Paragraph Style="{StaticResource H3}">1. 安装 Python</Paragraph>    <Paragraph>主页构建器所需 Python 版本为 3.9+</Paragraph><Paragraph Style="{StaticResource H3}">2. 下载 HomepageBuilder 源码</Paragraph>    <Paragraph>你可以通过 GitHub Releases 或 Git Clone 下载构建器的源码 </Paragraph><Paragraph Style="{StaticResource H4}">通过 Release</Paragraph><List MarkerStyle="Decimal">
+<ListItem><Paragraph Style="{StaticResource Lp}">打开 <Underline><local:MyTextButton Margin="0,0,0,-3" EventType="打开网页" EventData="https://github.com/Light-Beacon/HomepageBuilder/releases/latest">HomepageBuilder 的最新发布版</local:MyTextButton></Underline></Paragraph></ListItem>
+<ListItem><Paragraph Style="{StaticResource Lp}">下载 Source code 文件（如果不知道下哪个好就下 zip）</Paragraph></ListItem>
+<ListItem><Paragraph Style="{StaticResource Lp}">解压下载的文件到想存放的位置下</Paragraph></ListItem>
+</List><Paragraph Style="{StaticResource H4}">通过 Git Clone</Paragraph><List MarkerStyle="Decimal">
+<ListItem><Paragraph Style="{StaticResource Lp}">在存放位置处运行 <TextBox Style="{StaticResource InlineCode}">git clone https://github.com/Light-Beacon/HomepageBuilder.git .</TextBox></Paragraph></ListItem>
+</List><Paragraph Style="{StaticResource H3}">3. 安装依赖</Paragraph><Paragraph Style="{StaticResource H4}">基础依赖</Paragraph>    <Paragraph>运行在文件夹以下命令以安装依赖</Paragraph>    <Paragraph><TextBox Style="{StaticResource InlineCode}">pip3 install -r requirements.txt</TextBox></Paragraph><Paragraph Style="{StaticResource H4}">服务器依赖</Paragraph>    <Paragraph>如果你需要使用构建器部署服务器，你需要额外安装服务器的依赖</Paragraph>    <Paragraph><TextBox Style="{StaticResource InlineCode}">pip3 install -r server_requirements.txt</TextBox></Paragraph>
 </FlowDocument>
 </FlowDocumentScrollViewer>
 </StackPanel>
@@ -203,32 +195,21 @@ xmlns:local="clr-namespace:PCL;assembly=Plain Craft Launcher 2">
 <Grid>
     <Grid.ColumnDefinitions>
         <ColumnDefinition/>
-        <ColumnDefinition/>
+        
     </Grid.ColumnDefinitions>
     
     <local:MyCard Margin="5" Grid.Column="0" Height="60">
-        <local:MyButton EventType="打开帮助" EventData="https://vuepress-for-pcl2-web.pages.dev/使用须知.json">
+        <local:MyButton EventType="打开帮助" EventData="https://vuepress-for-pcl2-web.pages.dev/准备工作.json">
         <StackPanel Margin="20,10">
             <TextBlock Text="上一页" FontWeight="Bold" FontSize="16"
                 Foreground="{DynamicResource ColorBrush3}" 
                 HorizontalAlignment="Left"/>
             <TextBlock FontSize="12" Foreground="Gray" 
-                HorizontalAlignment="Left">使用须知</TextBlock>
+                HorizontalAlignment="Left">准备工作</TextBlock>
         </StackPanel>
         </local:MyButton>
     </local:MyCard>
     
-    <local:MyCard Margin="5" Grid.Column="1" Height="60">
-        <local:MyButton EventType="打开帮助" EventData="https://vuepress-for-pcl2-web.pages.dev/快速开始.json">
-        <StackPanel Margin="20,10">
-            <TextBlock Text="下一页" FontWeight="Bold" FontSize="16"
-                Foreground="{DynamicResource ColorBrush3}" 
-                HorizontalAlignment="Right"/>
-            <TextBlock FontSize="12" Foreground="Gray" 
-                HorizontalAlignment="Right">快速开始</TextBlock>
-        </StackPanel>
-        </local:MyButton>
-    </local:MyCard>
 </Grid><local:MyCard Margin="0,0,0,14">
 <Border CornerRadius="5" Background="White" Margin="0">
 <Border BorderBrush="{DynamicResource ColorBrush4}" Margin="-0.6" CornerRadius="5" BorderThickness="4,0,0,0">
@@ -243,7 +224,7 @@ xmlns:local="clr-namespace:PCL;assembly=Plain Craft Launcher 2">
     <TextBlock FontSize="14">一个复刻Vuepress-Hope的PCL博客主页模板</TextBlock>
     </StackPanel>
     <local:MyIconTextButton Grid.Column="1" HorizontalAlignment="Right" EventType="打开网页" LogoScale="1"
-      Text="GitHub" EventData="https://github.com/BetterMinecraftHelpDocs/docs"
+      Text="GitHub" EventData="https://github.com/Joker2184/VuePress-for-PCL2"
       Logo="M512 42.666667A464.64 464.64 0 0 0 42.666667 502.186667 460.373333 460.373333 0 0 0 363.52 938.666667c23.466667 4.266667 32-9.813333 32-22.186667v-78.08c-130.56 27.733333-158.293333-61.44-158.293333-61.44a122.026667 122.026667 0 0 0-52.053334-67.413333c-42.666667-28.16 3.413333-27.733333 3.413334-27.733334a98.56 98.56 0 0 1 71.68 47.36 101.12 101.12 0 0 0 136.533333 37.973334 99.413333 99.413333 0 0 1 29.866667-61.44c-104.106667-11.52-213.333333-50.773333-213.333334-226.986667a177.066667 177.066667 0 0 1 47.36-124.16 161.28 161.28 0 0 1 4.693334-121.173333s39.68-12.373333 128 46.933333a455.68 455.68 0 0 1 234.666666 0c89.6-59.306667 128-46.933333 128-46.933333a161.28 161.28 0 0 1 4.693334 121.173333A177.066667 177.066667 0 0 1 810.666667 477.866667c0 176.64-110.08 215.466667-213.333334 226.986666a106.666667 106.666667 0 0 1 32 85.333334v125.866666c0 14.933333 8.533333 26.88 32 22.186667A460.8 460.8 0 0 0 981.333333 502.186667 464.64 464.64 0 0 0 512 42.666667"/>
     </Grid>
     <Line X1="0" X2="100" Stroke="Gray" StrokeThickness="1.5" Stretch="Fill" Margin="0,8"/>
